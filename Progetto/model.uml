@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_4mbXcKGzEeqStoc8-dfVSw" name="NewModel">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_2THbkKG0EeqStoc8-dfVSw" name="NewModel"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_jnDIkKG1Eeqb-qyWspynOw" name="Scenario_0"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_3IQo8KG2Eeqb-qyWspynOw" name="Utente">
+    <eAnnotations xmi:id="_3ISeIKG2Eeqb-qyWspynOw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_3ISeIaG2Eeqb-qyWspynOw" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4xQAAKG2Eeqb-qyWspynOw" name="Richiedi analisi tweet">
+    <extend xmi:id="_cwDJoKG3Eeqb-qyWspynOw" extendedCase="_PKfS4KG3Eeqb-qyWspynOw"/>
+    <extend xmi:id="_eU3LUKG3Eeqb-qyWspynOw" extendedCase="_R8Po0KG3Eeqb-qyWspynOw"/>
+    <include xmi:id="_GzgZ0KG3Eeqb-qyWspynOw" addition="_CL8Y0KG3Eeqb-qyWspynOw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AkJUkKG3Eeqb-qyWspynOw" memberEnd="_AkJ7oKG3Eeqb-qyWspynOw _AkKisKG3Eeqb-qyWspynOw">
+    <ownedEnd xmi:id="_AkJ7oKG3Eeqb-qyWspynOw" type="_3IQo8KG2Eeqb-qyWspynOw" association="_AkJUkKG3Eeqb-qyWspynOw"/>
+    <ownedEnd xmi:id="_AkKisKG3Eeqb-qyWspynOw" type="_4xQAAKG2Eeqb-qyWspynOw" association="_AkJUkKG3Eeqb-qyWspynOw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_CL8Y0KG3Eeqb-qyWspynOw" name="Restituisce lista tweet"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_IIJ4kKG3Eeqb-qyWspynOw" name="API"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JgPs4KG3Eeqb-qyWspynOw" memberEnd="_JgQT8KG3Eeqb-qyWspynOw _JgQT8aG3Eeqb-qyWspynOw">
+    <ownedEnd xmi:id="_JgQT8KG3Eeqb-qyWspynOw" type="_CL8Y0KG3Eeqb-qyWspynOw" association="_JgPs4KG3Eeqb-qyWspynOw"/>
+    <ownedEnd xmi:id="_JgQT8aG3Eeqb-qyWspynOw" type="_IIJ4kKG3Eeqb-qyWspynOw" association="_JgPs4KG3Eeqb-qyWspynOw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_PKfS4KG3Eeqb-qyWspynOw" name="Analisi etichette tweet">
+    <extend xmi:id="_dP8xsKG3Eeqb-qyWspynOw" extendedCase="_Y14aIKG3Eeqb-qyWspynOw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_R8Po0KG3Eeqb-qyWspynOw" name="Operazione con i tweet">
+    <extend xmi:id="_p0448KG3Eeqb-qyWspynOw" extendedCase="_e9_A0KG3Eeqb-qyWspynOw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Y14aIKG3Eeqb-qyWspynOw" name="Studio sorgente"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_e9_A0KG3Eeqb-qyWspynOw" name="Filtra attraverso statistiche tweet">
+    <include xmi:id="_vuBPgKG3Eeqb-qyWspynOw" addition="_rIhEAKG3Eeqb-qyWspynOw"/>
+    <include xmi:id="_xFDT4KG3Eeqb-qyWspynOw" addition="_riYVgKG3Eeqb-qyWspynOw"/>
+    <include xmi:id="_xuFCwKG3Eeqb-qyWspynOw" addition="_sLvbkKG3Eeqb-qyWspynOw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_rIhEAKG3Eeqb-qyWspynOw" name="Filtra in base ai dispositivi">
+    <include xmi:id="_wkUlYKG3Eeqb-qyWspynOw" addition="_Y14aIKG3Eeqb-qyWspynOw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_riYVgKG3Eeqb-qyWspynOw" name="Filtra data, orario e frequenta settimanale"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sLvbkKG3Eeqb-qyWspynOw" name="iltra interazioni tweet"/>
+</uml:Model>
