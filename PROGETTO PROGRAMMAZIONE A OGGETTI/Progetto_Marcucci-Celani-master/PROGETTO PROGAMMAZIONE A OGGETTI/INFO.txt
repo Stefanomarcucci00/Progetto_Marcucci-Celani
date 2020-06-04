@@ -1,0 +1,17 @@
+STATISTICHE:	
+min,max,media ecc... Valori numerici
+Se abbiamo liberie dobbiamo specificarne la dipendenza in maven;
+
+
+IDEE (per l utente che usa il programma):
+1-Autenticarsi;
+
+2-Richiedere statistiche:
+		-Quali utenti hanno tweetato da iphone;
+		-Quali utenti hanno tweetato da android; 
+		-Quali utenti hanno tweetato dal web;
+		-Controllare se è stato twittato da un app di terze parti;
+3-Filtri 		
+	-Frquenza dei tweet sui vari dispositivi;
+	-Ricerca dei dispositivi sui quali si è tweetato dati una certa data e/o orario;
+	
