@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_4mbXcKGzEeqStoc8-dfVSw" name="NewModel">
+  <packageImport xmi:id="__Xvg4KJ8EeqJ-du31PUODw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_2THbkKG0EeqStoc8-dfVSw" name="NewModel"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_jnDIkKG1Eeqb-qyWspynOw" name="Scenario_0"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_3IQo8KG2Eeqb-qyWspynOw" name="Utente">
+    <eAnnotations xmi:id="_3ISeIKG2Eeqb-qyWspynOw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_3ISeIaG2Eeqb-qyWspynOw" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4xQAAKG2Eeqb-qyWspynOw" name="Richiedi analisi tweet">
+    <extend xmi:id="_cwDJoKG3Eeqb-qyWspynOw" extendedCase="_PKfS4KG3Eeqb-qyWspynOw"/>
+    <extend xmi:id="_eU3LUKG3Eeqb-qyWspynOw" extendedCase="_R8Po0KG3Eeqb-qyWspynOw"/>
+    <include xmi:id="_GzgZ0KG3Eeqb-qyWspynOw" addition="_CL8Y0KG3Eeqb-qyWspynOw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_AkJUkKG3Eeqb-qyWspynOw" memberEnd="_AkJ7oKG3Eeqb-qyWspynOw _AkKisKG3Eeqb-qyWspynOw">
+    <ownedEnd xmi:id="_AkJ7oKG3Eeqb-qyWspynOw" type="_3IQo8KG2Eeqb-qyWspynOw" association="_AkJUkKG3Eeqb-qyWspynOw"/>
+    <ownedEnd xmi:id="_AkKisKG3Eeqb-qyWspynOw" type="_4xQAAKG2Eeqb-qyWspynOw" association="_AkJUkKG3Eeqb-qyWspynOw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_CL8Y0KG3Eeqb-qyWspynOw" name="Restituisce lista tweet"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_IIJ4kKG3Eeqb-qyWspynOw" name="API"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JgPs4KG3Eeqb-qyWspynOw" memberEnd="_JgQT8KG3Eeqb-qyWspynOw _JgQT8aG3Eeqb-qyWspynOw">
+    <ownedEnd xmi:id="_JgQT8KG3Eeqb-qyWspynOw" type="_CL8Y0KG3Eeqb-qyWspynOw" association="_JgPs4KG3Eeqb-qyWspynOw"/>
+    <ownedEnd xmi:id="_JgQT8aG3Eeqb-qyWspynOw" type="_IIJ4kKG3Eeqb-qyWspynOw" association="_JgPs4KG3Eeqb-qyWspynOw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_PKfS4KG3Eeqb-qyWspynOw" name="Analisi etichette tweet">
+    <extend xmi:id="_dP8xsKG3Eeqb-qyWspynOw" extendedCase="_Y14aIKG3Eeqb-qyWspynOw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_R8Po0KG3Eeqb-qyWspynOw" name="Operazione con i tweet">
+    <extend xmi:id="_p0448KG3Eeqb-qyWspynOw" extendedCase="_e9_A0KG3Eeqb-qyWspynOw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Y14aIKG3Eeqb-qyWspynOw" name="Studio sorgente"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_e9_A0KG3Eeqb-qyWspynOw" name="Filtra attraverso statistiche tweet">
+    <include xmi:id="_vuBPgKG3Eeqb-qyWspynOw" addition="_rIhEAKG3Eeqb-qyWspynOw"/>
+    <include xmi:id="_xFDT4KG3Eeqb-qyWspynOw" addition="_riYVgKG3Eeqb-qyWspynOw"/>
+    <include xmi:id="_xuFCwKG3Eeqb-qyWspynOw" addition="_sLvbkKG3Eeqb-qyWspynOw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_rIhEAKG3Eeqb-qyWspynOw" name="Filtra in base ai dispositivi">
+    <include xmi:id="_wkUlYKG3Eeqb-qyWspynOw" addition="_Y14aIKG3Eeqb-qyWspynOw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_riYVgKG3Eeqb-qyWspynOw" name="Filtra data, orario e frequenta settimanale"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_sLvbkKG3Eeqb-qyWspynOw" name="Filtra interazioni tweet"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_eUctkKMVEeq5itWsz8n75g" name="Model">
+    <packagedElement xmi:type="uml:Class" xmi:id="_bloxsKHHEeqb-qyWspynOw" name="Tweet" visibility="public">
+      <ownedAttribute xmi:id="_piBYgKKBEeqJ-du31PUODw" name="Created_at" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_9kMYQKJ_EeqJ-du31PUODw" name="Id_tweet" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_prQNAKKBEeqJ-du31PUODw" name="Text" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_p0BugKKBEeqJ-du31PUODw" name="Source" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_KcfRoKKGEeqJ-du31PUODw" name="N_retweet" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_IyagAKKHEeqJ-du31PUODw" name="N_like" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_pTio4KKHEeqJ-du31PUODw" name="Retweeted" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_7EVqcKc8EeqGnZbFoCkHHQ" name="Favorited" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_XerrcKMcEeq5itWsz8n75g" name="SetCreated_at">
+        <ownedParameter xmi:id="_hgDpwKMcEeq5itWsz8n75g" name="Created_at">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_X0QS0KMcEeq5itWsz8n75g" name="GetCreato"/>
+      <ownedOperation xmi:id="_Wpd6sKMcEeq5itWsz8n75g" name="SetId_tweet">
+        <ownedParameter xmi:id="_czmhsKMcEeq5itWsz8n75g" name="Id_tweet">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_eK6WIKc-EeqGnZbFoCkHHQ" name="GetId_tweet"/>
+      <ownedOperation xmi:id="_YIJfMKMcEeq5itWsz8n75g" name="SetText">
+        <ownedParameter xmi:id="_l80I8KMcEeq5itWsz8n75g" name="Text">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_YdnY4KMcEeq5itWsz8n75g" name="GetText"/>
+      <ownedOperation xmi:id="_Yz1ggKMcEeq5itWsz8n75g" name="SetSource">
+        <ownedParameter xmi:id="_sNe1wKMcEeq5itWsz8n75g" name="Source">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_ZLhnwKMcEeq5itWsz8n75g" name="GetSource"/>
+      <ownedOperation xmi:id="_4Y0_AKMhEeq5itWsz8n75g" name="SetN_retweet">
+        <ownedParameter xmi:id="_AiwTgKMiEeq5itWsz8n75g" name="N_retweet">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_4086UKMhEeq5itWsz8n75g" name="GetN_retweet"/>
+      <ownedOperation xmi:id="_5OmwcKMhEeq5itWsz8n75g" name="SetN_like">
+        <ownedParameter xmi:id="_LAsSAKMiEeq5itWsz8n75g" name="N_like">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_5z0WUKMhEeq5itWsz8n75g" name="GetN_like"/>
+      <ownedOperation xmi:id="_6OlmwKMhEeq5itWsz8n75g" name="SetRetweeted">
+        <ownedParameter xmi:id="_Sif2kKMiEeq5itWsz8n75g" name="N_retweeted">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_6ojl8KMhEeq5itWsz8n75g" name="GetRetweeted"/>
+      <ownedOperation xmi:id="__xqfwKc9EeqGnZbFoCkHHQ" name="SetFavourited">
+        <ownedParameter xmi:id="_COypgKc-EeqGnZbFoCkHHQ" name="Favourited">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_AAVN4Kc-EeqGnZbFoCkHHQ" name="GetFavourited"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_EYxe8KHGEeqb-qyWspynOw" name="User" visibility="public">
+      <ownedAttribute xmi:id="_Y2fgUKHGEeqb-qyWspynOw" name="Id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_GBq58KHHEeqb-qyWspynOw" name="Name" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_OfVCwKHHEeqb-qyWspynOw" name="Followers" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PBbDMKHHEeqb-qyWspynOw" name="Following" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_D9n0wKc8EeqGnZbFoCkHHQ" name="Location" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_Thp0cKKIEeqJ-du31PUODw" name="SetId">
+        <ownedParameter xmi:id="_ztwTEKKJEeqJ-du31PUODw" name="Id">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_5LGskKKJEeqJ-du31PUODw" name="GetId"/>
+      <ownedOperation xmi:id="_SArSAKMZEeq5itWsz8n75g" name="SetName">
+        <ownedParameter xmi:id="_ZojpYKMZEeq5itWsz8n75g" name="Name">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_THESUKMZEeq5itWsz8n75g" name="GetName"/>
+      <ownedOperation xmi:id="_TtrmYKMZEeq5itWsz8n75g" name="SetFollowers">
+        <ownedParameter xmi:id="_8H_nIKMbEeq5itWsz8n75g" name="Followers">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_UKznQKMZEeq5itWsz8n75g" name="GetFollower"/>
+      <ownedOperation xmi:id="_UouSUKMZEeq5itWsz8n75g" name="SetFollowing">
+        <ownedParameter xmi:id="_DhouMKMcEeq5itWsz8n75g" name="Following">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_VY-DgKMZEeq5itWsz8n75g" name="GetFollowing"/>
+      <ownedOperation xmi:id="_SzYvIKc8EeqGnZbFoCkHHQ" name="SetLocation">
+        <ownedParameter xmi:id="_VOb1QKc8EeqGnZbFoCkHHQ" name="Location">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_TG4S4Kc8EeqGnZbFoCkHHQ" name="GetLocation"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_7wrL8KMeEeq5itWsz8n75g" name="Parsing_and_others">
+    <packagedElement xmi:type="uml:Class" xmi:id="_-ne54KKCEeqJ-du31PUODw" name="Parsing" visibility="public">
+      <ownedOperation xmi:id="_rKX5UKMkEeq5itWsz8n75g" name="Download_File_JSON"/>
+      <ownedOperation xmi:id="_DN6uwKc_EeqGnZbFoCkHHQ" name="Parsing_obj"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_IXl-UKc_EeqGnZbFoCkHHQ" name="DataStorage" visibility="public">
+      <ownedOperation xmi:id="_K4cxgKc_EeqGnZbFoCkHHQ" name="getTweets"/>
+      <ownedOperation xmi:id="_LJ6U8Kc_EeqGnZbFoCkHHQ" name="getUsers"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_XhhK0Kc_EeqGnZbFoCkHHQ" name="Controller">
+    <packagedElement xmi:type="uml:Class" xmi:id="_b7ajQKc_EeqGnZbFoCkHHQ" name="Crontoller" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_gKhA8Kc_EeqGnZbFoCkHHQ" name="Statistics_and_filters">
+    <packagedElement xmi:type="uml:Class" xmi:id="_SzolwKdHEeqGnZbFoCkHHQ" name="Filters_imp" visibility="public"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_luWc8Kc_EeqGnZbFoCkHHQ" name="Exception"/>
+</uml:Model>
